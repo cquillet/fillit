@@ -6,7 +6,7 @@
 #    By: cquillet <cquillet@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/24 21:56:02 by cquillet          #+#    #+#              #
-#    Updated: 2018/02/06 15:58:59 by cquillet         ###   ########.fr        #
+#    Updated: 2018/02/06 16:13:52 by cquillet         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ $(NAME): $(OBJ)
 	gcc -Wall -Wextra -Werror -o $@ $^
 
 %.o: %.c
-	gcc -Wall -Wextra -Werror -c $<
+	gcc -Wall -Wextra -Werror -c $?
 
 clean:
 	rm -f $(OBJ)
