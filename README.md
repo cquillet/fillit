@@ -11,7 +11,7 @@
   do `make` in the directory `fillit`
 
 ## Usage
-  *usage:* `fillit file` where `file` is a mandatory argument that represents the list of tetrominos you want to pack.
+  *usage:* `fillit file` where `file` is a mandatory argument that represents the list of tetrominos you want to pack in the smallest possible square.
 
 ### Input
   The input file is a text file. Each tetromino is written in 4 lines and 4 columns where `.` represents a blank and `#` represents a block of a the tetromino. Theremust be an empty line between each tetromino.  
