@@ -55,16 +55,16 @@
   No matter where the tetromino is placed in the 4x4 area, the program considers it is the same piece.
   
   For example :
-  >	`....`  `##..`  `....`  `..##`  
-  >	`.##.`  `.#..`  `##..`  `...#`  
-  >	`..#.`  `.#..`  `.#..`  `...#`  
-	>  `..#.`  `....`  `.#..`  `....`  
+  >  `....`  `##..`  `....`  `..##`  
+  >  `.##.`  `.#..`  `##..`  `...#`  
+  >  `..#.`  `.#..`  `.#..`  `...#`  
+  >  `..#.`  `....`  `.#..`  `....`  
   >  are seen as the same piece
   
   **The file must contains 26 tetrominos at most!**
   
 ### Output
-The program displays the smallest square filled with the given tetrominos.
+  The program displays the smallest square filled with the given tetrominos.
   * 1st tetromino is written with `A`
   * 2nd tetromino is written with `B`
   * 3rd tetromino is written with `C`
