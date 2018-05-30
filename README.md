@@ -14,6 +14,7 @@
   *usage:* `fillit file` where `file` is a mandatory argument that represents the list of tetrominos you want to pack.
 
 ### Input
+  The input file is a text file. Each tetromino is written in 4 lines and 4 columns where `.` represents a blank and `#` represents a block of a the tetromino. Theremust be an empty line between each tetromino.  
   The 7 basic tetrominos are available :
   * I-tetromino (2 possible rotations)  
   	`####`  `.#..`  
@@ -52,8 +53,7 @@
     `....`  `.#..`  
 
 
-  No matter where the tetromino is placed in the 4x4 area, the program considers it is the same piece.
-  
+  No matter where the tetromino is placed in the 4x4 area, the program considers it is the same piece.  
   For example :
   >  `....`  `##..`  `....`  `..##`  
   >  `.##.`  `.#..`  `##..`  `...#`  
